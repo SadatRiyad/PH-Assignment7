@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500;600;700;800;900&family=Lexend:wght@100..900&display=swap');
 
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -16,3 +23,25 @@ body {
 .font-firaSans{
   font-family: 'Fira Sans', sans-serif;
 }
+
+
+
+/* header start */
+header {
+  margin: 5px auto;
+  background-image: linear-gradient(0deg, rgba(21, 11, 43, 0.90) 0%, rgba(21, 11, 43, 0.00) 10%),
+  url(../src/assets/header.png);
+  background-position: top center;
+  background-size: cover;
+  border-radius: 16px;
+  text-align: center;
+  padding: 110px 0px 60px;
+
+  & h1 {
+      color: #fff;
+      margin: 0px 0px 10px;
+  }
+}
+
+
+/* header end */
