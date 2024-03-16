@@ -1,0 +1,63 @@
+[
+    {
+      "recipe_image": "https://shorturl.at/rMOV1",
+      "recipe_id": 1,
+      "recipe_name": "Thai Basil Chicken Stir-Fry",
+      "short_description": "A fragrant and flavorful stir-fry inspired by Thai cuisine.",
+      "ingredient": 5,
+      "ingredients": ["550 g chicken", "120 ml soy sauce", "200 g basil leaf", "400 g mushroom", "3 cloves garlic"],
+      "preparing_time": "30",
+      "calories": "320"
+    },
+    {
+      "recipe_image": "https://shorturl.at/kFIOP",
+      "recipe_id": 2,
+      "recipe_name": "Mexican Street Corn (Elote)",
+      "short_description": "Classic Mexican street food featuring grilled corn with a creamy, tangy sauce.",
+      "ingredient": 6,
+      "ingredients": ["4 ears of corn", "100 g mayonnaise", "2 limes", "50 g cotija cheese", "1 tsp chili powder", "1/4 suger"],
+      "preparing_time": "20",
+      "calories": "180"
+    },
+    {
+      "recipe_image": "https://shorturl.at/pDEHU",
+      "recipe_id": 3,
+      "recipe_name": "Japanese Matcha Green Tea Cake",
+      "short_description": "An elegant and moist cake infused with the earthy flavors of matcha green tea.",
+      "ingredient": 5,
+      "ingredients": ["200 g all-purpose flour", "2 tbsp matcha powder", "150 g sugar", "3 eggs", "120 ml milk"],
+      "preparing_time": "45",
+      "calories": "250"
+    },
+    {
+      "recipe_image": "https://shorturl.at/chsO7",
+      "recipe_id": 4,
+      "recipe_name": "Italian Risotto Primavera",
+      "short_description": "Creamy risotto cooked with seasonal vegetables for a taste of spring in Italy.",
+      "ingredient": 5,
+      "ingredients": ["300 g Arborio rice", "1 liter vegetable broth", "200 g peas", "150 g asparagus", "200 g cherry tomatoes"],
+      "preparing_time": "35",
+      "calories": "280"
+    },
+    {
+      "recipe_image": "https://shorturl.at/oPS05",
+      "recipe_id": 5,
+      "recipe_name": "Indian Butter Chicken (Murgh Makhani)",
+      "short_description": "A rich and aromatic Indian chicken curry made with butter, cream, and spices.",
+      "ingredient": 5,
+      "ingredients": ["800 g chicken thighs", "200 g plain yogurt", "4 tomatoes", "100 g butter", "100 ml cream"],
+      "preparing_time": "50",
+      "calories": "380"
+    },
+    {
+      "recipe_image": "https://rb.gy/2uk7m4",
+      "recipe_id": 6,
+      "recipe_name": "French Macarons",
+      "short_description": "Delicate almond meringue cookies filled with luscious ganache or buttercream.",
+      "ingredient": 4,
+      "ingredients": ["150 g almond flour", "150 g powdered sugar", "3 egg whites", "100 g granulated sugar"],
+      "preparing_time": "60",
+      "calories": "200"
+    }
+  ]
+  

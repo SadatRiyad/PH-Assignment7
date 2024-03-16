@@ -25,7 +25,7 @@ const Navbar = () => {
                                     <li className="hover:text-main-color"><a>Search</a></li>
                                 </ul>
                             </div>
-                            <a className="w-3/4 -ml-4 md:ml-0 w-48" href="index.html"><img src={logo}></img></a>
+                            <a className="-ml-4 md:ml-0 w-48" href="index.html"><img src={logo}></img></a>
                         </div>
                         <div className="navbar-center hidden lg:flex">
                             <ul className="menu menu-horizontal md:mr-4 text-base">
@@ -37,7 +37,7 @@ const Navbar = () => {
                         </div>
                         <div className="navbar-end gap-1 md:gap-2">
 
-                            <label className="input input-bordered flex items-center gap-2 rounded-full bg-[#150B2B0D] hidden md:flex">
+                            <label className="input input-bordered items-center gap-2 rounded-full bg-[#150B2B0D] hidden md:flex">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="w-4 h-4 opacity-70"><path fillRule="evenodd" d="M9.965 11.026a5 5 0 1 1 1.06-1.06l2.755 2.754a.75.75 0 1 1-1.06 1.06l-2.755-2.754ZM10.5 7a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z" clipRule="evenodd" />
                                 </svg>
                                 <input type="text" className="grow" placeholder="Search" />
