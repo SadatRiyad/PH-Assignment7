@@ -3,7 +3,7 @@
 const Li = ({ i }) => {
     // console.log(i)
     return (
-        <li className="text-tertiary text-sm mb-1">* {i}</li>
+        <li className="text-tertiary text-sm mb-1 font-firaSans">* {i}</li>
     );
 };
 
