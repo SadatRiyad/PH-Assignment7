@@ -1,9 +1,11 @@
+import footerLogo from '../src/assets/logo1.png';
+
 const Footer = () => {
     return (
         <div>
             <footer className="footer footer-center p-10 bg-green text-primary-content pt-20 pb-10 mx-auto">
                 <aside>
-                    <img src="../src/assets/logo1.png" alt="footer logo" className="w-52 md:w-60 mb-4 mr-6" />
+                    <img src={footerLogo} alt="footer logo" className="w-52 md:w-60 mb-4 mr-6" />
                     <p className="font-semibold text-primary opacity-80 px-8 text-xs">
                         Welcome to BB-Food, where culinary exploration knows no bounds! <br />
                         Our mission is to transcend borders and bring people together through the universal language of food. We are committed to providing our customers with the best possible experience, from the quality of our ingredients to the authenticity of our recipes. We believe that food is more than just sustenance; it is a way of life. We invite you to join us on this journey and discover the world through its many flavors. <br /> Bon appétit!
