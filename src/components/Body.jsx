@@ -29,16 +29,16 @@ const Body = () => {
         if (!isExist) {
             setCart([...cart, p]);
         } else {
-            // const notify = toast('This product already exists in your cart', {
-            //     position: "top-right",
-            //     autoClose: 2000,
-            //     hideProgressBar: false,
-            //     closeOnClick: true,
-            //     pauseOnHover: false,
-            //     draggable: true,
-            //     progress: undefined,
-            // });
-            alert("This item already on Want to cook. You can only have one of this item in Want to cook cart at a time!");
+            const notify = toast('This product already exists in your cart', {
+                position: "top-right",
+                autoClose: 2000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: false,
+                draggable: true,
+                progress: undefined,
+            });
+            // alert("This item already on Want to cook. You can only have one of this item in Want to cook cart at a time!");
         }
     }
 
@@ -69,8 +69,8 @@ const Body = () => {
 
 
     return (
-        <div className="body py-20">
-            <div className="container text-center p-4 mx-auto">
+        <div className="body py-20 mx-auto">
+            <div className="container text-center p-4 mx-auto" id="recipes">
                 <h1 className="text-xl sm:text-3xl md:text-4xl font-bold text-primary tracking-wide">Our Recipes</h1>
                 <p className="mb-5 mt-7 text-sm text-tertiary px-4">Welcome to BB-Food, where we invite you to explore a world of culinary delights through our collection of exquisite recipes. From comforting classics to innovative creations, each recipe is thoughtfully crafted to inspire and delight your taste buds.</p>
             </div>
@@ -113,7 +113,6 @@ const Body = () => {
                                                         handleTotalCalories(item.calories); // Third function
                                                         handleDelete(item.recipe_id); // Fourth function
                                                     }} className="btn mt-0 bg-green hover:bg-transparent border-green text-primary hover:text-green hover:border-green rounded-full  transition-all duration-200 text-xs font-firaSans px-3 py-1">Preparing</button>
-                                                    {/* onClick={() => handleDelete (item.recipe_id) } */}
                                                 </div>
                                             </div>
                                         ))}
@@ -122,7 +121,7 @@ const Body = () => {
                                 </div>
 
                             </div>
-                            <div>
+                            <div className="mt-12">
                                 <div className="card items-center text-center mb-3">
                                     <h2 className="card-title">Currently cooking: <span>{cart1.length}</span></h2>
                                 </div>
@@ -146,15 +145,6 @@ const Body = () => {
                                             </div>
                                         ))}
                                     </div>
-                                    {/* <div className="bg-[#28282805] p-1">
-                                        <div className="flex items-center text-sm text-left w-full justify-around p-1">
-                                            <p className="font-firaSans mb-2 text-xs text-tertiary p-3">1</p>
-                                            <p className="font-firaSans mb-2 text-xs text-tertiary p-3">Thai Basil Chicken Stir-Fry</p>
-                                            <p className="font-firaSans mb-2 text-xs text-tertiary p-3">20 minutes</p>
-                                            <p className="font-firaSans mb-2 text-xs text-tertiary p-3">400 calories</p>
-
-                                        </div>
-                                    </div> */}
                                 </div>
                             </div>
                             <div className="flex">
@@ -169,6 +159,7 @@ const Body = () => {
                     </div>
                 </div>
             </div>
+            <ToastContainer />
         </div>
     );
 };

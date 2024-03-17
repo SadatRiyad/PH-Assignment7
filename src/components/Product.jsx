@@ -3,6 +3,7 @@
 import Li from "./Li";
 import a from "../assets/a.png";
 import b from "../assets/b.png";
+// eslint-disable-next-line no-unused-vars
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -39,7 +40,7 @@ const Product = ({ pd, handleCart }) => {
                 </div>
                 <div className="card-actions">
                     <button onClick={() => handleCart(pd, toast)} className="btn mt-4 bg-green hover:bg-transparent border-green text-primary hover:text-green hover:border-green rounded-full hover:-translate-y-1 transition-all duration-200">Want to Cook</button>
-                    <ToastContainer />
+                    
                 </div>
             </div>
         </div>

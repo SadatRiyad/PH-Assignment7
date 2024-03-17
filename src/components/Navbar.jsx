@@ -19,20 +19,20 @@ const Navbar = () => {
                                 </div>
                                 <ul tabIndex="0"
                                     className="menu menu-sm dropdown-content mt-3 md:mt-0 z-[10000] p-2 md:p-0 shadow bg-base-100 rounded-box w-52">
-                                    <li className="hover:text-main-color"><a>Home</a></li>
-                                    <li className="hover:text-main-color"><a>Recipes</a></li>
-                                    <li className="hover:text-main-color"><a>About</a></li>
-                                    <li className="hover:text-main-color"><a>Search</a></li>
+                                    <li className="hover:text-main-color"><a href='#'>Home</a></li>
+                                    <li className="hover:text-main-color"><a href='#recipes'>Recipes</a></li>
+                                    <li className="hover:text-main-color"><a href='#'>About</a></li>
+                                    <li className="hover:text-main-color"><a href='#'>Search</a></li>
                                 </ul>
                             </div>
                             <a className="-ml-4 md:ml-0 w-48" href="index.html"><img src={logo}></img></a>
                         </div>
                         <div className="navbar-center hidden lg:flex">
                             <ul className="menu menu-horizontal md:mr-4 text-base">
-                                <li className="hover:text-main-color"><a>Home</a></li>
-                                <li className="hover:text-main-color"><a>Recipes</a></li>
-                                <li className="hover:text-main-color"><a>About</a></li>
-                                <li className="hover:text-main-color"><a>Search</a></li>
+                                <li className="hover:text-main-color"><a href='#'>Home</a></li>
+                                <li className="hover:text-main-color"><a href='#recipes'>Recipes</a></li>
+                                <li className="hover:text-main-color"><a href='#'>About</a></li>
+                                <li className="hover:text-main-color"><a href='#'>Search</a></li>
                             </ul>
                         </div>
                         <div className="navbar-end gap-1 md:gap-2">
